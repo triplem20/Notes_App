@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notes App</title>
+        <link rel="stylesheet" href="CSS.css">
+        <link rel="icon" href="../Notes_App/images/favicon.ico" type="image/x-icon">
+
+
+
+    </head>
+    
+    <body>
+        <div class="container">
+
+            <h1><img src="../images/notesapp.png" class="appimg" alt="">Notes</h1>
+            <button class="btn"><img src="../images/edit.png">Create Note</button><button class="clearB"><img src="../images/clear.jpeg">Clear All Notes</button>
+
+            <div class="notes-container">
+                <!-- <p contenteditable="true" class="input-box">
+                    <img src="../images/delete-icon-png-16.jpg">
+            
+                    </p> -->
+            </div>
+
+           
+            <div class="pop-up" id="popup">
+
+                <h2>Delete Note</h2>
+                <p>Want to delete this note?</p>
+                <div class="pop-up-btn">
+                <button type="button" onclick="" class="delete-btn">YES</button><button type="button" onclick="closePopup()">NO</button>
+            </div>
+            </div>
+
+
+
+            <div class="pop-up-clear" id="popup-clear">
+
+                <h2>Clear Notes</h2>
+                <p>Want to delete all notes?</p>
+                <div class="pop-up-btnc">
+                <button type="button" onclick="" class="clear-btn">YES</button><button type="button" onclick="closePopupCl()">NO</button>
+            </div>
+            </div>
+        </div>
+        <script src="notesapp.js"></script>
+    </body>
+</html>
